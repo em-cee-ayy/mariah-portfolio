@@ -77,10 +77,15 @@ export default function HeroSection() {
             size="lg"
             className="border-2 hover:bg-blue-50 group">
 
-            <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/d964d53bf_MariahAndersonResume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full h-full">
-              <Download className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
-              Download Resume
-            </a>
+            <a 
+  href="/MCAResume.pdf" // <-- this tells the browser to look in the public folder!
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="flex items-center justify-center w-full h-full"
+>
+  <Download className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+  Download Resume
+</a>
           </Button>
         </motion.div>
 
