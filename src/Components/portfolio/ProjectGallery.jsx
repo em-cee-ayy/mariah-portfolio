@@ -52,9 +52,9 @@ export default function ProjectGallery() {
       color: "from-purple-500 to-pink-500",
       image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80",
       features: [
-        "The Vibe Check (Sentiment AI)",
+        "Vibe Check (Sentiment AI)",
         "Dopamine Menu Generator",
-        "ADHD Paralysis Breaker",
+        "ADHD Paralysis Help",
         "Executive Function Analysis",
         "Micro-step Task Decomposition",
         "Behavior Pattern Insights"
