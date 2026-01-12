@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/Components/ui/Card.jsx";
 import { Button } from "@/Components/ui/Button.jsx";
 import { Badge } from "@/Components/ui/Badge.jsx";
 import { Link } from "react-router-dom";
-import { createPageUrl } from "@/utils.js";
+import { createPageUrl } from "@/utils";
 import { 
   Mountain, 
   Heart, 
