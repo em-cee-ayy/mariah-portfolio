@@ -2,7 +2,7 @@
 import React from "react";
 /* eslint-disable-next-line no-unused-vars */
 import { motion } from "framer-motion";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "@/Components/ui/Card.jsx";
 import { 
   Mountain, 
   Pencil, 

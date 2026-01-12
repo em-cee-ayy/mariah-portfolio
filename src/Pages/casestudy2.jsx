@@ -1,9 +1,9 @@
 import React from "react";
 /* eslint-disable-next-line no-unused-vars */
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { Button } from "@/Components/ui/Button.jsx";
+import { Card, CardContent } from "@/Components/ui/Card.jsx";
+import { Badge } from "@/Components/ui/Badge.jsx";
 import { Link } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import {

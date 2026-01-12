@@ -1,8 +1,8 @@
 import React from "react";
 /* eslint-disable-next-line no-unused-vars */
 import { motion } from "framer-motion";
-import { Card, CardContent } from "@/Components/ui/Card";
-import { Badge } from "@/Components/ui/Badge";
+import { Card, CardContent } from "@/Components/ui/Card.jsx";
+import { Badge } from "@/Components/ui/Badge.jsx";
 import {
   Code2,
   Palette,

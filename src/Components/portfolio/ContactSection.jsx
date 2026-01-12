@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 /* eslint-disable-next-line no-unused-vars */
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Card, CardContent } from "@/components/ui/card";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Button } from "@/Components/ui/Button.jsx";
+import { Input } from "@/Components/ui/Input.jsx";
+import { Textarea } from "@/Components/ui/Textarea.jsx";
+import { Card, CardContent } from "@/Components/ui/Card.jsx";
+import { Alert, AlertDescription, AlertTitle } from "@/Components/ui/Alert.jsx";
 import { 
   Mail, 
   Linkedin, 
@@ -19,7 +19,7 @@ import {
   AlertCircle,
   Loader2
 } from "lucide-react";
-import { SendEmail } from "@/integrations/Core";
+import { SendEmail } from "@/integrations/Core.js";
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });

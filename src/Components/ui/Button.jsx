@@ -41,12 +41,9 @@ export function Button({
       break;
   }
   
-  return (
-    <Component 
-      className={`${baseClasses} ${className}`}
-      {...props}
-    >
-      {children}
-    </Component>
+  return React.createElement(
+    Component,
+    { className: `${baseClasses} ${className}`, ...props },
+    children
   );
 }

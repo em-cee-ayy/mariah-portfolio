@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 /* eslint-disable-next-line no-unused-vars */
 import { motion, AnimatePresence } from "framer-motion";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from "@/Components/ui/Card.jsx";
+import { Button } from "@/Components/ui/Button.jsx";
+import { Badge } from "@/Components/ui/Badge.jsx";
 import { Link } from "react-router-dom";
-import { createPageUrl } from "@/utils";
+import { createPageUrl } from "@/utils.js";
 import { 
   Mountain, 
   Heart, 

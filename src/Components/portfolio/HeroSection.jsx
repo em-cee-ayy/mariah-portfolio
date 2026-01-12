@@ -1,7 +1,7 @@
 import React from "react";
 /* eslint-disable-next-line no-unused-vars */
 import { motion } from "framer-motion";
-import { Button } from "@/Components/ui/Button";
+import { Button } from "@/Components/ui/Button.jsx";
 import { ArrowRight, Download, Sparkles, Code2, Palette, Brain } from "lucide-react";
 
 export default function HeroSection() {

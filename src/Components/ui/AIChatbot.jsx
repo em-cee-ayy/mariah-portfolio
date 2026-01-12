@@ -3,10 +3,10 @@
 import React, { useState } from 'react';
 /* eslint-disable-next-line no-unused-vars */
 import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/button';
-import { Textarea } from '@/components/ui/textarea';
+import { Button } from '@/Components/ui/Button.jsx';
+import { Textarea } from '@/Components/ui/Textarea.jsx';
 import { MessageCircle, Send, Loader2, Zap } from 'lucide-react';
-import { ChatWithAI } from '@/integrations/Core'; // <-- NEW INTEGRATION IMPORT
+import { ChatWithAI } from '@/integrations/Core.js'; 
 
 export default function AIChatbot() {
   const [isOpen, setIsOpen] = useState(false);
