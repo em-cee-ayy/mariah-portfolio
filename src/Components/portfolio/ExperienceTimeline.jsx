@@ -31,7 +31,7 @@ const ExperienceTimeline = () => {
     },
     {
       company: 'Charity Footprints',
-      role: 'Client Success Manager',
+      role: 'Customer Success Manager',
       date: '2019 - 2021',
       points: [
         'Managed a portfolio of 100+ fundraising accounts, ensuring high customer satisfaction.',

@@ -78,7 +78,7 @@ export default function HeroSection() {
             className="border-2 hover:bg-blue-50 group">
 
             <a 
-  href="/MCAResume.pdf" // <-- this tells the browser to look in the public folder!
+  href="/Mariah_Anderson_Resume_2026.pdf" // <-- this tells the browser to look in the public folder!
   target="_blank" 
   rel="noopener noreferrer" 
   className="flex items-center justify-center w-full h-full"
